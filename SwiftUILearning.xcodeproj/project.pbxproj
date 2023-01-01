@@ -14,6 +14,7 @@
 		3D1DECC2295FA5F2000153A2 /* SwiftUILearningText.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D1DECC1295FA5F2000153A2 /* SwiftUILearningText.swift */; };
 		3D1DECC4295FAA65000153A2 /* SwiftUILearningShapes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D1DECC3295FAA65000153A2 /* SwiftUILearningShapes.swift */; };
 		3D1DECC62960635A000153A2 /* SwiftUILearningColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D1DECC52960635A000153A2 /* SwiftUILearningColors.swift */; };
+		3D1DECC82961DEC0000153A2 /* SwiftUILearningGradients.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D1DECC72961DEC0000153A2 /* SwiftUILearningGradients.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +26,7 @@
 		3D1DECC1295FA5F2000153A2 /* SwiftUILearningText.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUILearningText.swift; sourceTree = "<group>"; };
 		3D1DECC3295FAA65000153A2 /* SwiftUILearningShapes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUILearningShapes.swift; sourceTree = "<group>"; };
 		3D1DECC52960635A000153A2 /* SwiftUILearningColors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUILearningColors.swift; sourceTree = "<group>"; };
+		3D1DECC72961DEC0000153A2 /* SwiftUILearningGradients.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUILearningGradients.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +64,7 @@
 				3D1DECC1295FA5F2000153A2 /* SwiftUILearningText.swift */,
 				3D1DECC3295FAA65000153A2 /* SwiftUILearningShapes.swift */,
 				3D1DECC52960635A000153A2 /* SwiftUILearningColors.swift */,
+				3D1DECC72961DEC0000153A2 /* SwiftUILearningGradients.swift */,
 				3D1DECB7295FA36A000153A2 /* Assets.xcassets */,
 				3D1DECB9295FA36A000153A2 /* Preview Content */,
 			);
@@ -147,6 +150,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3D1DECB6295FA369000153A2 /* ContentView.swift in Sources */,
+				3D1DECC82961DEC0000153A2 /* SwiftUILearningGradients.swift in Sources */,
 				3D1DECC4295FAA65000153A2 /* SwiftUILearningShapes.swift in Sources */,
 				3D1DECB4295FA369000153A2 /* SwiftUILearningApp.swift in Sources */,
 				3D1DECC2295FA5F2000153A2 /* SwiftUILearningText.swift in Sources */,
