@@ -9,7 +9,7 @@ import SwiftUI
 
 struct SwiftUILearningSystemIcons: View {
     var body: some View {
-        Image(systemName: "folder.badge.plus")
+        Image(systemName: "heart.fill")
             .renderingMode(.original)
             .resizable()
             .scaledToFill()
