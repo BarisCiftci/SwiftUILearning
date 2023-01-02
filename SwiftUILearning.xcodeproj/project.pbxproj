@@ -18,6 +18,7 @@
 		3D1DECCA2961E497000153A2 /* SwiftUILearningSystemIcons.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D1DECC92961E497000153A2 /* SwiftUILearningSystemIcons.swift */; };
 		3D1DECCC29621CB0000153A2 /* SwiftUILearningImages.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D1DECCB29621CB0000153A2 /* SwiftUILearningImages.swift */; };
 		3D1DECCE29622076000153A2 /* SwiftUILearningFrames.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D1DECCD29622076000153A2 /* SwiftUILearningFrames.swift */; };
+		3D1DECD02963783A000153A2 /* SwiftUILearningBackgroundOverlay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D1DECCF2963783A000153A2 /* SwiftUILearningBackgroundOverlay.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,6 +34,7 @@
 		3D1DECC92961E497000153A2 /* SwiftUILearningSystemIcons.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUILearningSystemIcons.swift; sourceTree = "<group>"; };
 		3D1DECCB29621CB0000153A2 /* SwiftUILearningImages.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUILearningImages.swift; sourceTree = "<group>"; };
 		3D1DECCD29622076000153A2 /* SwiftUILearningFrames.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUILearningFrames.swift; sourceTree = "<group>"; };
+		3D1DECCF2963783A000153A2 /* SwiftUILearningBackgroundOverlay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUILearningBackgroundOverlay.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,8 +67,8 @@
 		3D1DECB2295FA369000153A2 /* SwiftUILearning */ = {
 			isa = PBXGroup;
 			children = (
-				3D1DECB3295FA369000153A2 /* SwiftUILearningApp.swift */,
 				3D1DECB5295FA369000153A2 /* ContentView.swift */,
+				3D1DECB3295FA369000153A2 /* SwiftUILearningApp.swift */,
 				3D1DECC1295FA5F2000153A2 /* SwiftUILearningText.swift */,
 				3D1DECC3295FAA65000153A2 /* SwiftUILearningShapes.swift */,
 				3D1DECC52960635A000153A2 /* SwiftUILearningColors.swift */,
@@ -74,6 +76,7 @@
 				3D1DECC92961E497000153A2 /* SwiftUILearningSystemIcons.swift */,
 				3D1DECCB29621CB0000153A2 /* SwiftUILearningImages.swift */,
 				3D1DECCD29622076000153A2 /* SwiftUILearningFrames.swift */,
+				3D1DECCF2963783A000153A2 /* SwiftUILearningBackgroundOverlay.swift */,
 				3D1DECB7295FA36A000153A2 /* Assets.xcassets */,
 				3D1DECB9295FA36A000153A2 /* Preview Content */,
 			);
@@ -162,6 +165,7 @@
 				3D1DECB6295FA369000153A2 /* ContentView.swift in Sources */,
 				3D1DECC82961DEC0000153A2 /* SwiftUILearningGradients.swift in Sources */,
 				3D1DECC4295FAA65000153A2 /* SwiftUILearningShapes.swift in Sources */,
+				3D1DECD02963783A000153A2 /* SwiftUILearningBackgroundOverlay.swift in Sources */,
 				3D1DECCE29622076000153A2 /* SwiftUILearningFrames.swift in Sources */,
 				3D1DECB4295FA369000153A2 /* SwiftUILearningApp.swift in Sources */,
 				3D1DECC2295FA5F2000153A2 /* SwiftUILearningText.swift in Sources */,

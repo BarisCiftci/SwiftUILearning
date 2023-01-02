@@ -19,7 +19,7 @@ struct SwiftUILearningFrames: View {
             .background(Color.pink)
             .frame(height: 100)
             .background(Color.green)
-            .frame(maxHeight: .infinity)
+            .frame(maxHeight: .infinity, alignment: .top)
             .background(Color.yellow)
             
     }
