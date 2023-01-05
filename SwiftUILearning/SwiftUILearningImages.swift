@@ -20,6 +20,7 @@ struct SwiftUILearningImages: View {
              .padding()
              .shadow(color: Color.blue.opacity(0.4), radius: 10, x: 4, y: 4)
             // .opacity(0.2)
+        
              
     }
 }
