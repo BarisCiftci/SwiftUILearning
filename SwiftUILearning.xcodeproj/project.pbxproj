@@ -24,6 +24,7 @@
 		3DB642FA2969F56800535EEB /* SwiftUILearningSpacer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DB642F92969F56800535EEB /* SwiftUILearningSpacer.swift */; };
 		3DB642FC2969FC0100535EEB /* SwiftUILearningInitilaizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DB642FB2969FC0100535EEB /* SwiftUILearningInitilaizer.swift */; };
 		3DB642FE296A226900535EEB /* SwiftUILearningForEach.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DB642FD296A226900535EEB /* SwiftUILearningForEach.swift */; };
+		3DB64300296A26B400535EEB /* SwiftUILearningScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DB642FF296A26B400535EEB /* SwiftUILearningScrollView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -45,6 +46,7 @@
 		3DB642F92969F56800535EEB /* SwiftUILearningSpacer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUILearningSpacer.swift; sourceTree = "<group>"; };
 		3DB642FB2969FC0100535EEB /* SwiftUILearningInitilaizer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUILearningInitilaizer.swift; sourceTree = "<group>"; };
 		3DB642FD296A226900535EEB /* SwiftUILearningForEach.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUILearningForEach.swift; sourceTree = "<group>"; };
+		3DB642FF296A26B400535EEB /* SwiftUILearningScrollView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUILearningScrollView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -92,6 +94,7 @@
 				3DB642F92969F56800535EEB /* SwiftUILearningSpacer.swift */,
 				3DB642FB2969FC0100535EEB /* SwiftUILearningInitilaizer.swift */,
 				3DB642FD296A226900535EEB /* SwiftUILearningForEach.swift */,
+				3DB642FF296A26B400535EEB /* SwiftUILearningScrollView.swift */,
 				3D1DECB7295FA36A000153A2 /* Assets.xcassets */,
 				3D1DECB9295FA36A000153A2 /* Preview Content */,
 			);
@@ -191,6 +194,7 @@
 				3D1DECC2295FA5F2000153A2 /* SwiftUILearningText.swift in Sources */,
 				3D1DECC62960635A000153A2 /* SwiftUILearningColors.swift in Sources */,
 				3D1DECCC29621CB0000153A2 /* SwiftUILearningImages.swift in Sources */,
+				3DB64300296A26B400535EEB /* SwiftUILearningScrollView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
