@@ -53,7 +53,10 @@ struct SwiftUILearningInitilaizer_Previews: PreviewProvider {
     static var previews: some View {
         VStack {
             SwiftUILearningInitilaizer(count: 100, fruit: .apple)
-            SwiftUILearningInitilaizer(count: 50, fruit: .orange)
+            HStack{
+                SwiftUILearningInitilaizer(count: 100, fruit: .orange)
+                SwiftUILearningInitilaizer(count: 50, fruit: .orange)
+            }
         }
     }
 }
