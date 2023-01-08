@@ -9,18 +9,26 @@ import SwiftUI
 
 struct SwiftULearningLazyVGrid: View {
     let columns: [GridItem] = [
-        GridItem(.adaptive(minimum: 50, maximum: 300), spacing: 8, alignment: nil)
+        GridItem(.adaptive(minimum: 100, maximum: 300), spacing: 8, alignment: nil)
     
     ]
     
     var body: some View {
-        LazyVGrid(columns: columns) {
-            
-            ForEach(1..<50) { index in
-                Rectangle()
-                    .frame(height: 50)
+        ScrollView {
+            Rectangle()
+                .frame(height: 400)
+                .foregroundColor(Color.orange)
+
+            LazyVGrid(columns: columns) {
+                ForEach(1..<37) { index in
+                    Rectangle()
+                        .frame(height: 100)
+                        .foregroundColor(Color.pink)
+                    
+                }
                 
             }
+            
         }
         .padding(8)
     }
