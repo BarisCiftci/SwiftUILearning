@@ -25,6 +25,7 @@
 		3DB642FC2969FC0100535EEB /* SwiftUILearningInitilaizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DB642FB2969FC0100535EEB /* SwiftUILearningInitilaizer.swift */; };
 		3DB642FE296A226900535EEB /* SwiftUILearningForEach.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DB642FD296A226900535EEB /* SwiftUILearningForEach.swift */; };
 		3DB64300296A26B400535EEB /* SwiftUILearningScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DB642FF296A26B400535EEB /* SwiftUILearningScrollView.swift */; };
+		3DB64302296B6B5100535EEB /* SwiftULearningLazyVGrid.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DB64301296B6B5100535EEB /* SwiftULearningLazyVGrid.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -47,6 +48,7 @@
 		3DB642FB2969FC0100535EEB /* SwiftUILearningInitilaizer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUILearningInitilaizer.swift; sourceTree = "<group>"; };
 		3DB642FD296A226900535EEB /* SwiftUILearningForEach.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUILearningForEach.swift; sourceTree = "<group>"; };
 		3DB642FF296A26B400535EEB /* SwiftUILearningScrollView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUILearningScrollView.swift; sourceTree = "<group>"; };
+		3DB64301296B6B5100535EEB /* SwiftULearningLazyVGrid.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftULearningLazyVGrid.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,6 +97,7 @@
 				3DB642FB2969FC0100535EEB /* SwiftUILearningInitilaizer.swift */,
 				3DB642FD296A226900535EEB /* SwiftUILearningForEach.swift */,
 				3DB642FF296A26B400535EEB /* SwiftUILearningScrollView.swift */,
+				3DB64301296B6B5100535EEB /* SwiftULearningLazyVGrid.swift */,
 				3D1DECB7295FA36A000153A2 /* Assets.xcassets */,
 				3D1DECB9295FA36A000153A2 /* Preview Content */,
 			);
@@ -187,6 +190,7 @@
 				3D1DECC4295FAA65000153A2 /* SwiftUILearningShapes.swift in Sources */,
 				3DB642F62969F2AE00535EEB /* SwiftUILearningPadding.swift in Sources */,
 				3D1DECD02963783A000153A2 /* SwiftUILearningBackgroundOverlay.swift in Sources */,
+				3DB64302296B6B5100535EEB /* SwiftULearningLazyVGrid.swift in Sources */,
 				3DB642FE296A226900535EEB /* SwiftUILearningForEach.swift in Sources */,
 				3DB642FC2969FC0100535EEB /* SwiftUILearningInitilaizer.swift in Sources */,
 				3D1DECCE29622076000153A2 /* SwiftUILearningFrames.swift in Sources */,
