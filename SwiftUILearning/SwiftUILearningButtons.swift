@@ -14,23 +14,16 @@ struct SwiftUILearningButtons: View {
     @State var title: String = "This is my title"
     
     var body: some View {
-        VStack{
+        VStack(spacing: 20){
             Text(title)
-            
             Button(action: {
                 self.title = "Button First pressed"
             },
                    label: {
                 Text("Button First")
-                    .foregroundColor(.white)
                     .fontWeight(.black)
                     .padding()
-                    .background(
-                    
-                    Capsule()
-                        .frame(width: 120, height: 40)
-                        .foregroundColor(.pink)
-                    )
+                    .accentColor(.red)
             })
             
             Button(action: {
@@ -42,10 +35,22 @@ struct SwiftUILearningButtons: View {
                     .fontWeight(.black)
                     .padding()
                     .background(
-                    
-                    Capsule()
-                        .frame(width: 160, height: 40)
-                        .foregroundColor(.blue)
+                        Color.red
+                            .cornerRadius(20)
+                    )
+            })
+            
+            Button(action: {
+                self.title = "Button  pressed"
+            }, label: {
+                Circle()
+                    .fill(Color.white)
+                    .frame(width: 75, height: 75)
+                    .shadow(radius: 10)
+                    .overlay(
+                        Image(systemName: "heart.fill")
+                            .font(.largeTitle)
+                            .foregroundColor(.red)
                     )
             })
             
