@@ -30,10 +30,11 @@ struct SwiftUILearningButtons: View {
                 self.title = "Button second pressed"
             },
                    label: {
-                Text("Button Second")
+                Text("Button Second".uppercased())
                     .foregroundColor(.white)
                     .fontWeight(.black)
                     .padding()
+                    .padding(.horizontal, 10)
                     .background(
                         Color.red
                             .cornerRadius(20)
