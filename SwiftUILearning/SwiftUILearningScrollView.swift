@@ -19,7 +19,7 @@ struct SwiftUILearningScrollView: View {
                     .foregroundColor(.pink)
                 
             }
-            ScrollView(.horizontal, showsIndicators: false) {
+            ScrollView(.horizontal, showsIndicators: true) {
                 HStack {
                     ForEach(0..<100) { index in
                         
