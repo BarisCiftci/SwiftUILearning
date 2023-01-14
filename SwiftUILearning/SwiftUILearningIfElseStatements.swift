@@ -15,7 +15,7 @@ struct SwiftUILearningIfElseStatements: View {
     var body: some View {
         ZStack {
             Color.gray
-                .ignoresSafeArea()
+                .ignoresSafeArea(.all)
             
                     //Button Vstack
             VStack {
