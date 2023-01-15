@@ -16,7 +16,7 @@ struct SwiftUILearningAnimationAndwithAnimation: View {
             Button("button")
             {
                 withAnimation(Animation
-                    .default
+                    .easeIn(duration: 0.3)
                 ){
                     isAnimated.toggle()
                 }

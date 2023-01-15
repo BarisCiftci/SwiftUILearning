@@ -35,6 +35,7 @@
 		3DF8A1CD29731CE200E87BE3 /* SwiftUILearningIfElseStatements.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DF8A1CC29731CE200E87BE3 /* SwiftUILearningIfElseStatements.swift */; };
 		3DF8A1CF2973267100E87BE3 /* SwiftULearningTernaryOperators.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DF8A1CE2973267100E87BE3 /* SwiftULearningTernaryOperators.swift */; };
 		3DF8A1D1297357E800E87BE3 /* SwiftUILearningAnimationAndwithAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DF8A1D0297357E800E87BE3 /* SwiftUILearningAnimationAndwithAnimation.swift */; };
+		3DF8A1D32974792C00E87BE3 /* SwiftUILearningAnimationCurved.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DF8A1D22974792C00E87BE3 /* SwiftUILearningAnimationCurved.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -67,6 +68,7 @@
 		3DF8A1CC29731CE200E87BE3 /* SwiftUILearningIfElseStatements.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUILearningIfElseStatements.swift; sourceTree = "<group>"; };
 		3DF8A1CE2973267100E87BE3 /* SwiftULearningTernaryOperators.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftULearningTernaryOperators.swift; sourceTree = "<group>"; };
 		3DF8A1D0297357E800E87BE3 /* SwiftUILearningAnimationAndwithAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUILearningAnimationAndwithAnimation.swift; sourceTree = "<group>"; };
+		3DF8A1D22974792C00E87BE3 /* SwiftUILearningAnimationCurved.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUILearningAnimationCurved.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -125,6 +127,7 @@
 				3DF8A1CC29731CE200E87BE3 /* SwiftUILearningIfElseStatements.swift */,
 				3DF8A1CE2973267100E87BE3 /* SwiftULearningTernaryOperators.swift */,
 				3DF8A1D0297357E800E87BE3 /* SwiftUILearningAnimationAndwithAnimation.swift */,
+				3DF8A1D22974792C00E87BE3 /* SwiftUILearningAnimationCurved.swift */,
 				3D1DECB7295FA36A000153A2 /* Assets.xcassets */,
 				3D1DECB9295FA36A000153A2 /* Preview Content */,
 			);
@@ -229,6 +232,7 @@
 				3D369C54296C98E00030DE3D /* SwiftUILeraningSafeArea.swift in Sources */,
 				3D1DECCE29622076000153A2 /* SwiftUILearningFrames.swift in Sources */,
 				3D1DECB4295FA369000153A2 /* SwiftUILearningApp.swift in Sources */,
+				3DF8A1D32974792C00E87BE3 /* SwiftUILearningAnimationCurved.swift in Sources */,
 				3D369C58296C9F420030DE3D /* SwiftUILearningButtons.swift in Sources */,
 				3D1DECC2295FA5F2000153A2 /* SwiftUILearningText.swift in Sources */,
 				3DF8A1CF2973267100E87BE3 /* SwiftULearningTernaryOperators.swift in Sources */,
