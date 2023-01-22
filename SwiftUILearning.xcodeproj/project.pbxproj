@@ -31,6 +31,7 @@
 		3DB64300296A26B400535EEB /* SwiftUILearningScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DB642FF296A26B400535EEB /* SwiftUILearningScrollView.swift */; };
 		3DB64302296B6B5100535EEB /* SwiftULearningLazyVGrid.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DB64301296B6B5100535EEB /* SwiftULearningLazyVGrid.swift */; };
 		3DBFFD29297C8FF3005A9F10 /* SwiftUILearningLists.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DBFFD28297C8FF3005A9F10 /* SwiftUILearningLists.swift */; };
+		3DBFFD2B297D5E19005A9F10 /* SwiftULearningAlerts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DBFFD2A297D5E19005A9F10 /* SwiftULearningAlerts.swift */; };
 		3DC95AA029773F7E00DB3BE5 /* SwiftUILearninTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DC95A9F29773F7E00DB3BE5 /* SwiftUILearninTransition.swift */; };
 		3DC95AA22977457100DB3BE5 /* SwiftUILearningSheets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DC95AA12977457100DB3BE5 /* SwiftUILearningSheets.swift */; };
 		3DC95AA429787BF300DB3BE5 /* SwiftUILearningNavigationViewAndLink.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DC95AA329787BF300DB3BE5 /* SwiftUILearningNavigationViewAndLink.swift */; };
@@ -68,6 +69,7 @@
 		3DB642FF296A26B400535EEB /* SwiftUILearningScrollView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUILearningScrollView.swift; sourceTree = "<group>"; };
 		3DB64301296B6B5100535EEB /* SwiftULearningLazyVGrid.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftULearningLazyVGrid.swift; sourceTree = "<group>"; };
 		3DBFFD28297C8FF3005A9F10 /* SwiftUILearningLists.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUILearningLists.swift; sourceTree = "<group>"; };
+		3DBFFD2A297D5E19005A9F10 /* SwiftULearningAlerts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftULearningAlerts.swift; sourceTree = "<group>"; };
 		3DC95A9F29773F7E00DB3BE5 /* SwiftUILearninTransition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUILearninTransition.swift; sourceTree = "<group>"; };
 		3DC95AA12977457100DB3BE5 /* SwiftUILearningSheets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUILearningSheets.swift; sourceTree = "<group>"; };
 		3DC95AA329787BF300DB3BE5 /* SwiftUILearningNavigationViewAndLink.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUILearningNavigationViewAndLink.swift; sourceTree = "<group>"; };
@@ -140,6 +142,7 @@
 				3DC95AA12977457100DB3BE5 /* SwiftUILearningSheets.swift */,
 				3DC95AA329787BF300DB3BE5 /* SwiftUILearningNavigationViewAndLink.swift */,
 				3DBFFD28297C8FF3005A9F10 /* SwiftUILearningLists.swift */,
+				3DBFFD2A297D5E19005A9F10 /* SwiftULearningAlerts.swift */,
 				3D1DECB7295FA36A000153A2 /* Assets.xcassets */,
 				3D1DECB9295FA36A000153A2 /* Preview Content */,
 			);
@@ -255,6 +258,7 @@
 				3D1DECC62960635A000153A2 /* SwiftUILearningColors.swift in Sources */,
 				3D1DECCC29621CB0000153A2 /* SwiftUILearningImages.swift in Sources */,
 				3DB64300296A26B400535EEB /* SwiftUILearningScrollView.swift in Sources */,
+				3DBFFD2B297D5E19005A9F10 /* SwiftULearningAlerts.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
