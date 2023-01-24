@@ -36,6 +36,7 @@ struct SwiftUILearningTextField: View {
                         .foregroundColor(Color.white)
                         .font(.headline)
                 })
+                .disabled(!textIsAppropriate())
                 
                 ForEach(dataArray, id: \.self) { data in
                     Text(data)
