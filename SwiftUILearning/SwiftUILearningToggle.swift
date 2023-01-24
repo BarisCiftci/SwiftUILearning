@@ -14,6 +14,17 @@ struct SwiftUILearningToggle: View {
     var body: some View {
         
         VStack {
+            
+            Toggle(
+                    isOn: $toggleIsOn,
+                    label: {
+                        Text("Check status")
+                    })
+            .padding()
+            .toggleStyle(SwitchToggleStyle(tint: Color.green))
+            
+            Spacer()
+            
             HStack {
                 Text("Status:")
                     .font(.headline)
@@ -22,12 +33,6 @@ struct SwiftUILearningToggle: View {
                     .foregroundColor(toggleIsOn ? Color.green : Color.gray)
                     .font(.headline)
             }
-            Toggle(
-                    isOn: $toggleIsOn,
-                    label: {
-                        Text("Check status")
-                    })
-            .toggleStyle(SwitchToggleStyle(tint: Color.green))
             
             Spacer()
         }
