@@ -34,6 +34,10 @@ struct SwiftUILearningTextEditor: View {
                         .cornerRadius(20)
                 })
                 Text(savedText)
+                    .foregroundColor(.white)
+                    .font(.system(size: 85))
+                    .padding()
+                    .background(Color.orange)
                 
                 Spacer()
             }
