@@ -17,6 +17,7 @@ struct SwiftUILearningPicker: View {
                 Text("Age:")
                 Text(selection)
             }
+            .fontWeight(.bold)
             Picker(
                 selection: $selection,
                 label: Text("Hello"),
@@ -24,6 +25,8 @@ struct SwiftUILearningPicker: View {
                     ForEach(18..<124) { number in
                         Text("\(number)")
                             .tag("\(number)")
+                            .foregroundColor(.white)
+                            .fontWeight(.bold)
                     }
             })
             .pickerStyle(.wheel)
