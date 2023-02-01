@@ -36,6 +36,7 @@
 		3D815DB02989996500CD042C /* SwiftULearningAppearDisappear.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D815DAF2989996500CD042C /* SwiftULearningAppearDisappear.swift */; };
 		3D815DB22989A51800CD042C /* SwiftUILearningIfLetGuard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D815DB12989A51800CD042C /* SwiftUILearningIfLetGuard.swift */; };
 		3D81D666298AF0A50013149A /* SwiftUILearningOnTapGesture.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D81D665298AF0A50013149A /* SwiftUILearningOnTapGesture.swift */; };
+		3D81D668298AF82B0013149A /* SwiftUILearningModelDataTypes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D81D667298AF82B0013149A /* SwiftUILearningModelDataTypes.swift */; };
 		3DB642F229675ABB00535EEB /* SwiftUILearningStacks.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DB642F129675ABB00535EEB /* SwiftUILearningStacks.swift */; };
 		3DB642F62969F2AE00535EEB /* SwiftUILearningPadding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DB642F52969F2AE00535EEB /* SwiftUILearningPadding.swift */; };
 		3DB642FA2969F56800535EEB /* SwiftUILearningSpacer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DB642F92969F56800535EEB /* SwiftUILearningSpacer.swift */; };
@@ -89,6 +90,7 @@
 		3D815DAF2989996500CD042C /* SwiftULearningAppearDisappear.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftULearningAppearDisappear.swift; sourceTree = "<group>"; };
 		3D815DB12989A51800CD042C /* SwiftUILearningIfLetGuard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUILearningIfLetGuard.swift; sourceTree = "<group>"; };
 		3D81D665298AF0A50013149A /* SwiftUILearningOnTapGesture.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUILearningOnTapGesture.swift; sourceTree = "<group>"; };
+		3D81D667298AF82B0013149A /* SwiftUILearningModelDataTypes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUILearningModelDataTypes.swift; sourceTree = "<group>"; };
 		3DB642F129675ABB00535EEB /* SwiftUILearningStacks.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUILearningStacks.swift; sourceTree = "<group>"; };
 		3DB642F52969F2AE00535EEB /* SwiftUILearningPadding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUILearningPadding.swift; sourceTree = "<group>"; };
 		3DB642F92969F56800535EEB /* SwiftUILearningSpacer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUILearningSpacer.swift; sourceTree = "<group>"; };
@@ -188,6 +190,7 @@
 				3D815DAF2989996500CD042C /* SwiftULearningAppearDisappear.swift */,
 				3D815DB12989A51800CD042C /* SwiftUILearningIfLetGuard.swift */,
 				3D81D665298AF0A50013149A /* SwiftUILearningOnTapGesture.swift */,
+				3D81D667298AF82B0013149A /* SwiftUILearningModelDataTypes.swift */,
 				3D1DECB7295FA36A000153A2 /* Assets.xcassets */,
 				3D1DECB9295FA36A000153A2 /* Preview Content */,
 			);
@@ -273,6 +276,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3D1DECCA2961E497000153A2 /* SwiftUILearningSystemIcons.swift in Sources */,
+				3D81D668298AF82B0013149A /* SwiftUILearningModelDataTypes.swift in Sources */,
 				3D1DECB6295FA369000153A2 /* ContentView.swift in Sources */,
 				3D3E60C2296F5E3600AC6961 /* SwiftUILearningStateProperty.swift in Sources */,
 				3D815DB02989996500CD042C /* SwiftULearningAppearDisappear.swift in Sources */,
