@@ -8,6 +8,7 @@
 import SwiftUI
 
 struct FruitModel: Identifiable {
+    
     let id: String = UUID().uuidString
     let name: String
     let count: Int
@@ -15,8 +16,9 @@ struct FruitModel: Identifiable {
 
 class FruitViewModel: ObservableObject {
     
-  @Published var fruitArray: [FruitModel] = []
+    @Published var fruitArray: [FruitModel] = []
     @Published var isLoading: Bool = false
+    
     init() {
         getFruits()
     }
@@ -66,7 +68,7 @@ struct SwiftUILearningStateObservableObjects: View {
                     .onDelete(perform: fruitViewModel.deleteFruit)
                 }
             }
-            .listStyle(.grouped)
+            .listStyle(.plain)
             .navigationTitle("Fruit List")
             .navigationBarItems(trailing:
                                     NavigationLink(
@@ -83,7 +85,7 @@ struct SwiftUILearningStateObservableObjects: View {
     
     struct RandomScreen: View {
         
-        @Environment(\.presentationMode) var presentationMode
+        
         @ObservedObject var fruitViewModel: FruitViewModel
         
         var body: some View {
