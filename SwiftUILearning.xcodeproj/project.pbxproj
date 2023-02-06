@@ -54,6 +54,8 @@
 		3DC95AA22977457100DB3BE5 /* SwiftUILearningSheets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DC95AA12977457100DB3BE5 /* SwiftUILearningSheets.swift */; };
 		3DC95AA429787BF300DB3BE5 /* SwiftUILearningNavigationViewAndLink.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DC95AA329787BF300DB3BE5 /* SwiftUILearningNavigationViewAndLink.swift */; };
 		3DCE6686299194E0007D172D /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DCE6685299194E0007D172D /* ProfileView.swift */; };
+		3DCE668829919E83007D172D /* AsyncImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DCE668729919E83007D172D /* AsyncImage.swift */; };
+		3DCE668A2991A20E007D172D /* SwiftUILearningSystemMaterials.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DCE66892991A20E007D172D /* SwiftUILearningSystemMaterials.swift */; };
 		3DE59A26298C30D8002C6BF1 /* SwiftUILearningStateObservableObjects.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DE59A25298C30D8002C6BF1 /* SwiftUILearningStateObservableObjects.swift */; };
 		3DE59A28298EE46D002C6BF1 /* SwiftUIeariningEnvironmentObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DE59A27298EE46D002C6BF1 /* SwiftUIeariningEnvironmentObject.swift */; };
 		3DE59A2A29900D49002C6BF1 /* SwiftUILearningAppStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DE59A2929900D49002C6BF1 /* SwiftUILearningAppStorage.swift */; };
@@ -114,6 +116,8 @@
 		3DC95AA12977457100DB3BE5 /* SwiftUILearningSheets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUILearningSheets.swift; sourceTree = "<group>"; };
 		3DC95AA329787BF300DB3BE5 /* SwiftUILearningNavigationViewAndLink.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUILearningNavigationViewAndLink.swift; sourceTree = "<group>"; };
 		3DCE6685299194E0007D172D /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		3DCE668729919E83007D172D /* AsyncImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsyncImage.swift; sourceTree = "<group>"; };
+		3DCE66892991A20E007D172D /* SwiftUILearningSystemMaterials.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUILearningSystemMaterials.swift; sourceTree = "<group>"; };
 		3DE59A25298C30D8002C6BF1 /* SwiftUILearningStateObservableObjects.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUILearningStateObservableObjects.swift; sourceTree = "<group>"; };
 		3DE59A27298EE46D002C6BF1 /* SwiftUIeariningEnvironmentObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIeariningEnvironmentObject.swift; sourceTree = "<group>"; };
 		3DE59A2929900D49002C6BF1 /* SwiftUILearningAppStorage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUILearningAppStorage.swift; sourceTree = "<group>"; };
@@ -217,6 +221,8 @@
 				3DE59A27298EE46D002C6BF1 /* SwiftUIeariningEnvironmentObject.swift */,
 				3DE59A2929900D49002C6BF1 /* SwiftUILearningAppStorage.swift */,
 				3D08A8B229904A2E0067EA45 /* OnboardingViews */,
+				3DCE668729919E83007D172D /* AsyncImage.swift */,
+				3DCE66892991A20E007D172D /* SwiftUILearningSystemMaterials.swift */,
 				3D1DECB7295FA36A000153A2 /* Assets.xcassets */,
 				3D1DECB9295FA36A000153A2 /* Preview Content */,
 			);
@@ -306,6 +312,7 @@
 				3D1DECB6295FA369000153A2 /* ContentView.swift in Sources */,
 				3D3E60C2296F5E3600AC6961 /* SwiftUILearningStateProperty.swift in Sources */,
 				3D815DB02989996500CD042C /* SwiftULearningAppearDisappear.swift in Sources */,
+				3DCE668829919E83007D172D /* AsyncImage.swift in Sources */,
 				3DF8A1D1297357E800E87BE3 /* SwiftUILearningAnimationAndwithAnimation.swift in Sources */,
 				3DC3B2812986EB3200C3E850 /* SwiftUILearningTabView.swift in Sources */,
 				3DF8A1CD29731CE200E87BE3 /* SwiftUILearningIfElseStatements.swift in Sources */,
@@ -333,6 +340,7 @@
 				3D369C54296C98E00030DE3D /* SwiftUILeraningSafeArea.swift in Sources */,
 				3D3ADDDC29806D7A0041D9E8 /* SwiftUILearningToggle.swift in Sources */,
 				3DE59A28298EE46D002C6BF1 /* SwiftUIeariningEnvironmentObject.swift in Sources */,
+				3DCE668A2991A20E007D172D /* SwiftUILearningSystemMaterials.swift in Sources */,
 				3D1DECCE29622076000153A2 /* SwiftUILearningFrames.swift in Sources */,
 				3D1DECB4295FA369000153A2 /* SwiftUILearningApp.swift in Sources */,
 				3D815DB22989A51800CD042C /* SwiftUILearningIfLetGuard.swift in Sources */,
@@ -491,6 +499,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -520,6 +529,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
