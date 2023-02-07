@@ -57,6 +57,11 @@
 		3DCE668829919E83007D172D /* AsyncImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DCE668729919E83007D172D /* AsyncImage.swift */; };
 		3DCE668A2991A20E007D172D /* SwiftUILearningSystemMaterials.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DCE66892991A20E007D172D /* SwiftUILearningSystemMaterials.swift */; };
 		3DCE668C2992DD1E007D172D /* SwiftUILearninTextSelection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DCE668B2992DD1E007D172D /* SwiftUILearninTextSelection.swift */; };
+		3DCE668E2992DDCD007D172D /* SwiftUILearningButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DCE668D2992DDCD007D172D /* SwiftUILearningButtonStyle.swift */; };
+		3DCE66902992E063007D172D /* SwiftUiSwipeActions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DCE668F2992E063007D172D /* SwiftUiSwipeActions.swift */; };
+		3DCE66922992E2AD007D172D /* SwiftULearningBadges.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DCE66912992E2AD007D172D /* SwiftULearningBadges.swift */; };
+		3DCE66942992E41F007D172D /* SwiftUILearningFocusState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DCE66932992E41F007D172D /* SwiftUILearningFocusState.swift */; };
+		3DCE66962992EB35007D172D /* SwiftULeariningOnSubmitSubmitLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DCE66952992EB35007D172D /* SwiftULeariningOnSubmitSubmitLabel.swift */; };
 		3DE59A26298C30D8002C6BF1 /* SwiftUILearningStateObservableObjects.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DE59A25298C30D8002C6BF1 /* SwiftUILearningStateObservableObjects.swift */; };
 		3DE59A28298EE46D002C6BF1 /* SwiftUIeariningEnvironmentObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DE59A27298EE46D002C6BF1 /* SwiftUIeariningEnvironmentObject.swift */; };
 		3DE59A2A29900D49002C6BF1 /* SwiftUILearningAppStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DE59A2929900D49002C6BF1 /* SwiftUILearningAppStorage.swift */; };
@@ -120,6 +125,11 @@
 		3DCE668729919E83007D172D /* AsyncImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsyncImage.swift; sourceTree = "<group>"; };
 		3DCE66892991A20E007D172D /* SwiftUILearningSystemMaterials.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUILearningSystemMaterials.swift; sourceTree = "<group>"; };
 		3DCE668B2992DD1E007D172D /* SwiftUILearninTextSelection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUILearninTextSelection.swift; sourceTree = "<group>"; };
+		3DCE668D2992DDCD007D172D /* SwiftUILearningButtonStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUILearningButtonStyle.swift; sourceTree = "<group>"; };
+		3DCE668F2992E063007D172D /* SwiftUiSwipeActions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUiSwipeActions.swift; sourceTree = "<group>"; };
+		3DCE66912992E2AD007D172D /* SwiftULearningBadges.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftULearningBadges.swift; sourceTree = "<group>"; };
+		3DCE66932992E41F007D172D /* SwiftUILearningFocusState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUILearningFocusState.swift; sourceTree = "<group>"; };
+		3DCE66952992EB35007D172D /* SwiftULeariningOnSubmitSubmitLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftULeariningOnSubmitSubmitLabel.swift; sourceTree = "<group>"; };
 		3DE59A25298C30D8002C6BF1 /* SwiftUILearningStateObservableObjects.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUILearningStateObservableObjects.swift; sourceTree = "<group>"; };
 		3DE59A27298EE46D002C6BF1 /* SwiftUIeariningEnvironmentObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIeariningEnvironmentObject.swift; sourceTree = "<group>"; };
 		3DE59A2929900D49002C6BF1 /* SwiftUILearningAppStorage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUILearningAppStorage.swift; sourceTree = "<group>"; };
@@ -226,6 +236,11 @@
 				3DCE668729919E83007D172D /* AsyncImage.swift */,
 				3DCE66892991A20E007D172D /* SwiftUILearningSystemMaterials.swift */,
 				3DCE668B2992DD1E007D172D /* SwiftUILearninTextSelection.swift */,
+				3DCE668D2992DDCD007D172D /* SwiftUILearningButtonStyle.swift */,
+				3DCE668F2992E063007D172D /* SwiftUiSwipeActions.swift */,
+				3DCE66912992E2AD007D172D /* SwiftULearningBadges.swift */,
+				3DCE66932992E41F007D172D /* SwiftUILearningFocusState.swift */,
+				3DCE66952992EB35007D172D /* SwiftULeariningOnSubmitSubmitLabel.swift */,
 				3D1DECB7295FA36A000153A2 /* Assets.xcassets */,
 				3D1DECB9295FA36A000153A2 /* Preview Content */,
 			);
@@ -333,6 +348,7 @@
 				3D23F8B52981AF34000EC6F9 /* SwiftUILearningPicker.swift in Sources */,
 				3D1DECC4295FAA65000153A2 /* SwiftUILearningShapes.swift in Sources */,
 				3DB642F62969F2AE00535EEB /* SwiftUILearningPadding.swift in Sources */,
+				3DCE66902992E063007D172D /* SwiftUiSwipeActions.swift in Sources */,
 				3D1DECD02963783A000153A2 /* SwiftUILearningBackgroundOverlay.swift in Sources */,
 				3DB64302296B6B5100535EEB /* SwiftULearningLazyVGrid.swift in Sources */,
 				3DB642FE296A226900535EEB /* SwiftUILearningForEach.swift in Sources */,
@@ -342,8 +358,11 @@
 				3DF8A1C32971E0DD00E87BE3 /* SwiftUILearningExtractSubviews.swift in Sources */,
 				3DCE6686299194E0007D172D /* ProfileView.swift in Sources */,
 				3D369C54296C98E00030DE3D /* SwiftUILeraningSafeArea.swift in Sources */,
+				3DCE66922992E2AD007D172D /* SwiftULearningBadges.swift in Sources */,
 				3D3ADDDC29806D7A0041D9E8 /* SwiftUILearningToggle.swift in Sources */,
 				3DE59A28298EE46D002C6BF1 /* SwiftUIeariningEnvironmentObject.swift in Sources */,
+				3DCE66942992E41F007D172D /* SwiftUILearningFocusState.swift in Sources */,
+				3DCE66962992EB35007D172D /* SwiftULeariningOnSubmitSubmitLabel.swift in Sources */,
 				3DCE668A2991A20E007D172D /* SwiftUILearningSystemMaterials.swift in Sources */,
 				3D1DECCE29622076000153A2 /* SwiftUILearningFrames.swift in Sources */,
 				3D1DECB4295FA369000153A2 /* SwiftUILearningApp.swift in Sources */,
@@ -360,6 +379,7 @@
 				3DBFFD29297C8FF3005A9F10 /* SwiftUILearningLists.swift in Sources */,
 				3D23F8B92981BAE2000EC6F9 /* SwiftUILearningDatePicker.swift in Sources */,
 				3D81D666298AF0A50013149A /* SwiftUILearningOnTapGesture.swift in Sources */,
+				3DCE668E2992DDCD007D172D /* SwiftUILearningButtonStyle.swift in Sources */,
 				3DF8A1CF2973267100E87BE3 /* SwiftULearningTernaryOperators.swift in Sources */,
 				3D1DECC62960635A000153A2 /* SwiftUILearningColors.swift in Sources */,
 				3DE59A26298C30D8002C6BF1 /* SwiftUILearningStateObservableObjects.swift in Sources */,
